@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<script>
+        function showImage(){
+        document.getElementById("loadingImage").style.visibility="visible";}
+        function showtext(){
+            document.getElementById("loadingtext").innerHTML = "HEEEEEEEEEEEEE";
+        }
+</script>
+<style>
+button{position: absolute; left: 20; font-size: large;}    
+div{font-size: 30px; color: blue; }
+</style>
+</head>
+
+<body>
+    
+    
+    <img id = "loadingImage" src= "IMG_5863.JPG" width="300" style="visibility:hidden"/>
+    <div id="loadingtext"></div><br/>
+    <button onclick= "showImage(); showtext()">Click Me</button>
+</body>
+</html>
